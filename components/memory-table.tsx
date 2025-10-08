@@ -33,7 +33,7 @@ export default function MemoryTable({
               </tr>
             </thead>
             <tbody>
-              {Array.from({ length: 16 }).map((_, addr) => {
+              {Array.from({ length: 6 }).map((_, addr) => {
                 const active = addr === highlight
                 const isPC = addr === pc
                 const isMAR = mar === addr
@@ -92,9 +92,6 @@ export default function MemoryTable({
             </tbody>
           </table>
         </div>
-      </div>
-      <div className="text-xs text-muted-foreground">
-        Tip: Click a cell to edit the instruction (e.g., {('"MOV 2"', '"ADD 1"', '"JMP 0"', '"HLT"')}).
       </div>
     </div>
   )

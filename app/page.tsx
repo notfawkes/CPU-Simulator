@@ -155,7 +155,7 @@ export default function HomePage() {
             transition={{ duration: 0.35 }}
             className="text-balance font-mono text-2xl md:text-3xl text-primary drop-shadow-[0_0_10px_var(--color-primary)]"
           >
-            Von Neumann CPU Simulator
+            CPU Simulator
           </motion.h1>
           <div
             className={cn(
