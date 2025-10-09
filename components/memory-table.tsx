@@ -22,7 +22,7 @@ export default function MemoryTable({
 
   return (
     <div className="space-y-3">
-      <h2 className="text-lg font-semibold text-primary">Memory (0–15)</h2>
+      <h2 className="text-lg font-semibold text-primary">Memory (5 Stacks)</h2>
       <div className="grid grid-cols-1">
         <div className="overflow-hidden rounded-lg border border-primary/15">
           <table className="w-full text-sm font-mono">
